@@ -1,0 +1,12 @@
+import math
+
+# Função para calcular a raiz quadrada
+def calcular_raiz_quadrada(numero):
+    if numero < 0:
+        return "Número negativo não tem raiz quadrada real."
+    return math.sqrt(numero)
+
+# Exemplo de uso
+numero = float(input("Digite um número: "))
+resultado = calcular_raiz_quadrada(numero)
+print(f"A raiz quadrada de {numero} é {resultado}.")
